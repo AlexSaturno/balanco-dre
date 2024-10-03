@@ -400,62 +400,80 @@ def main():
                                         "nome_da_empresa": nome_extraido,
                                         "ano_referencia": {
                                             "ativo_circulante": {
-                                            "disponibilidades": valor_extraido,
-                                            "aplicacoes_financeiras": valor_extraido,
-                                            "duplicatas_a_receber": valor_extraido,
-                                            "estoques": valor_extraido,
-                                            "impostos_a_recuperar": valor_extraido,
-                                            "controladas_e_coligadas": valor_extraido,
-                                            "outros_operacionais": valor_extraido,
-                                            "outros_nao_operacionais": valor_extraido
+                                                "disponibilidades": valor_extraido,
+                                                "aplicacoes_financeiras": valor_extraido,
+                                                "duplicatas_a_receber": valor_extraido,
+                                                "estoques": valor_extraido,
+                                                "impostos_a_recuperar": valor_extraido,
+                                                "controladas_e_coligadas": valor_extraido,
+                                                "outros_operacionais": valor_extraido,
+                                                "outros_nao_operacionais": valor_extraido
                                             },
                                             "realizavel_longo_prazo": {
-                                            "aplicacoes_financeiras": valor_extraido,
-                                            "controladas_e_coligadas": valor_extraido,
-                                            "depositos_judiciais": valor_extraido,
-                                            "impostos_diferidos": valor_extraido,
-                                            "outros_operacionais": valor_extraido,
-                                            "outros_nao_operacionais": valor_extraido
+                                                "aplicacoes_financeiras": valor_extraido,
+                                                "controladas_e_coligadas": valor_extraido,
+                                                "depositos_judiciais": valor_extraido,
+                                                "impostos_diferidos": valor_extraido,
+                                                "outros_operacionais": valor_extraido,
+                                                "outros_nao_operacionais": valor_extraido
                                             },
                                             "permanente": {
-                                            "investimentos": valor_extraido,
-                                            "imobilizado_tecnico": valor_extraido,
-                                            "intangivel": valor_extraido
+                                                "investimentos": valor_extraido,
+                                                "imobilizado_tecnico": valor_extraido,
+                                                "intangivel": valor_extraido
                                             },
                                             "total_do_ativo": valor_extraido,
                                             "passivo_circulante": {
-                                            "fornecedores": valor_extraido,
-                                            "instituicoes_financeiras": valor_extraido,
-                                            "salarios_tributos_contribuicoes": valor_extraido,
-                                            "dividendos_participacoes": valor_extraido,
-                                            "adiantamento_de_clientes": valor_extraido,
-                                            "controladas_e_coligadas": valor_extraido,
-                                            "outros_operacionais": valor_extraido,
-                                            "outros_nao_operacionais": valor_extraido
+                                                "fornecedores": valor_extraido,
+                                                "instituicoes_financeiras": valor_extraido,
+                                                "salarios_tributos_contribuicoes": valor_extraido,
+                                                "dividendos_participacoes": valor_extraido,
+                                                "adiantamento_de_clientes": valor_extraido,
+                                                "controladas_e_coligadas": valor_extraido,
+                                                "outros_operacionais": valor_extraido,
+                                                "outros_nao_operacionais": valor_extraido
                                             },
                                             "exigivel_longo_prazo": {
-                                            "instituicoes_financeiras": valor_extraido,
-                                            "controladas_e_coligadas": valor_extraido,
-                                            "provisao_por_contingencias": valor_extraido,
-                                            "impostos_diferidos": valor_extraido,
-                                            "outros_operacionais": valor_extraido,
-                                            "outros_nao_operacionais": valor_extraido
+                                                "instituicoes_financeiras": valor_extraido,
+                                                "controladas_e_coligadas": valor_extraido,
+                                                "provisao_por_contingencias": valor_extraido,
+                                                "impostos_diferidos": valor_extraido,
+                                                "outros_operacionais": valor_extraido,
+                                                "outros_nao_operacionais": valor_extraido
                                             },
                                             "resultados_exercicios_futuros": valor_extraido,
                                             "patrimonio_liquido": {
-                                            "capital_social": valor_extraido,
-                                            "reservas": valor_extraido,
-                                            "participacoes_minoritarias": valor_extraido
+                                                "capital_social": valor_extraido,
+                                                "reservas": valor_extraido,
+                                                "participacoes_minoritarias": valor_extraido
                                             },
                                             "total_do_passivo": valor_extraido,
                                             "indicadores": {
-                                            "receita_operacional_liquida": valor_extraido,
-                                            "ebitda_anual": valor_extraido,
-                                            "ebitda_no_periodo": valor_extraido,
-                                            "divida_financeira_liquida": valor_extraido,
-                                            "divida_liquida_ebitda": valor_extraido,
-                                            "margem_ebitda": valor_extraido
-                                            }
+                                                "receita_operacional_liquida": valor_extraido,
+                                                "ebitda_anual": valor_extraido,
+                                                "ebitda_no_periodo": valor_extraido,
+                                                "divida_financeira_liquida": valor_extraido,
+                                                "divida_liquida_ebitda": valor_extraido,
+                                                "margem_ebitda": valor_extraido
+                                            },
+                                            "receita_operacional_bruta": {
+                                                "mercado_interno": valor_extraido,
+                                                "mercado_externo": valor_extraido,
+                                                "impostos_abatimentos": valor_extraido
+                                            },
+                                            "receita_operacional_liquida": {
+                                                "custos_mercadorias_vendidas": valor_extraido
+                                            },
+                                            "lucro_bruto": {
+                                                "despesas_adm_gerais": valor_extraido,
+                                                "despesas_com_vendas": valor_extraido,
+                                                "outras_operacionais": valor_extraido
+                                            },
+                                            "resultado_atividade": {
+                                                "despesas_financeiras": valor_extraido,
+                                                "receitas_financeiras": valor_extraido
+                                            },
+                                            
                                         }
                                     }
                                     ####
