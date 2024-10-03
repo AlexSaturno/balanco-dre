@@ -387,11 +387,11 @@ def main():
                             start_time = time.time()
 
                             query = """
-                                    Você é um analista de balanços de empresas.
-                                    Extraia do documento anexado as informações de ativo e passivo/patrimônio líquido.
+                                    Você é um analista de balanços e demonstrativos de resultados de empresas.
+                                    Extraia do documento anexado as informações de ativo, passivo/patrimônio líquido e resultados.
                                     
                                     Seja conciso. Sua resposta será somente um dicionário Python obrigatoriamente no formato abaixo.
-                                    Sempre incluir TODOS os anos disponibilizados no documento, substituindo as chaves "ano_referencia" pelo ano do balanço.
+                                    Sempre incluir TODOS os anos disponibilizados no documento, substituindo as chaves "ano_referencia" pelo ano do balanço/DRE.
                                     Inclua somente as chaves que tiverem valores.
 
                                     Formato obrigatório do dicionário Python de saída:
@@ -473,7 +473,27 @@ def main():
                                                 "despesas_financeiras": valor_extraido,
                                                 "receitas_financeiras": valor_extraido
                                             },
-                                            
+                                            "lucro_operacional": {
+                                                "receita_extra": valor_extraido,
+                                                "provisao_contigencias": valor_extraido,
+                                                "impairment": valor_extraido,
+                                                "valor_justo_permanente": valor_extraido,
+                                                "equivalencia_patrimonial": valor_extraido
+                                            },
+                                            "lucro_antes_ir": {
+                                                "ir_pago": valor_extraido,
+                                                "ir_cs_deferido": valor_extraido,
+                                                "participacoes_administradores": valor_extraido
+                                            }
+                                            "lucro_liquido": {
+                                                "atribuido_minoritarios": valor_extraido,
+                                                "atribuido_controladores": valor_extraido
+                                            },
+                                            "depreciacao_amortizacao": valor_extraido,
+                                            "equivalencia_patrimonial": valor_extraido,
+                                            "resultado_nao_operacional": valor_extraido,
+                                            "geracao_recursos_res_extra_operacional": valor_extraido,
+                                            "geracao_recursos_atividade": valor_extraido                                            
                                         }
                                     }
                                     ####
